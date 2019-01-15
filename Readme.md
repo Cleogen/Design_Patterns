@@ -54,7 +54,7 @@
     <td>Mediator</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Ishkhan23/Design_Patterns/Creational/Singleton">Singleton</a></td>
+    <td><a href="/Creational/Singleton">Singleton</a></td>
     <td>Flyweight</td>
     <td>Memento</td>
   </tr>
