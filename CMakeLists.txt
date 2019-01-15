@@ -3,4 +3,4 @@ project(Design_Patterns)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Design_Patterns main.cpp Creational/Singleton.h)
+add_executable(Design_Patterns main.cpp Creational/Singleton/Singleton.h)
