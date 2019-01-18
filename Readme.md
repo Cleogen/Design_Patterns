@@ -76,7 +76,7 @@
 <tr>
     <td></td>
     <td></td>
-    <td>Strategy</td>
+    <td><a href="/Behavioral/Strategy">Strategy</a></td>
   </tr> 
 <tr>
     <td></td>
