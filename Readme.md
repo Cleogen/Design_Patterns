@@ -66,7 +66,7 @@
   <tr>
     <td></td>
     <td>Proxy</td>
-    <td>Observer</td>
+    <td><a href="/Behavioral/Observer">Observer</a></td>
   </tr>
   <tr>
     <td></td>
