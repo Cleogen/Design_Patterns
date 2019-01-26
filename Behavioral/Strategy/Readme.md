@@ -25,10 +25,6 @@ Any change to one of the algorithms, whether it was a simple bug fix or a slight
 
 In addition, teamwork became inefficient. Your teammates, who had been hired right after the successful release, complain that they spend too much time resolving merge conflicts. Implementing a new feature requires you to change the same huge class, conflicting with the code produced by other people.
 
-</div>
-
-<div class="section solution">
-
 ## Solution
 
 The Strategy pattern suggests that you take a class that does something specific in a lot of different ways and extract all of these algorithms into separate classes called _strategies_.

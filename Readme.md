@@ -104,7 +104,7 @@
   <h4>Lacks formal foundations</h4>
 
   <p>The study of design patterns has been excessively ad hoc, and some have argued that the concept sorely needs to be put on a more formal footing. At
-    <abbr data-original-title="" title="">OOPSLA 1999</abbr>, the Gang of Four were (with their full cooperation) subjected to a show trial, in which they were “charged” with numerous crimes against computer science. They were “convicted” by ⅔ of the “jurors” who attended the trial.
+    OOPSLA 1999, the Gang of Four were (with their full cooperation) subjected to a show trial, in which they were “charged” with numerous crimes against computer science. They were “convicted” by ⅔ of the “jurors” who attended the trial.
   </p>
 
   <h4>Leads to inefficient solutions</h4>
