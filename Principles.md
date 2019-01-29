@@ -1,4 +1,4 @@
-## ♠ Encapsulate what varies
+## ♠ Encapsulate what varies.
 
 ## ♥ Favor composition over inheritence.
     
