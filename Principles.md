@@ -1,15 +1,9 @@
-    ♠ Encapsulate what varies
+## ♠ Encapsulate what varies
+
+## ♥ Favor composition over inheritence.
     
-    ♥ Favor composition over
-      inheritence.
-    
-    ♣ Program to interfaces, not
-      implementations.
+## ♣ Program to interfaces, not implementations.
       
-    ♦ Strive for loosely coupled
-      designs between objects that
-      interact. 
+## ♦ Strive for loosely coupled designs between objects that interact.
       
-    ☀ Classes should be open
-      for extension, but closed for
-      modification.  
+## ☀ Classes should be open for extension, but closed for modification.  
