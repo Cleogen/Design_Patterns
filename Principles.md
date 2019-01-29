@@ -10,6 +10,6 @@
       designs between objects that
       interact. 
       
-    ╜ Classes should be open
+    ☀ Classes should be open
       for extension, but closed for
       modification.  
