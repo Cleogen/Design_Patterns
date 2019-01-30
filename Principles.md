@@ -1,6 +1,6 @@
 ## ♠ Encapsulate what varies.
 
-## ♥ Favor composition over inheritence.
+## ♥ Favor composition over inheritance.
     
 ## ♣ Program to interfaces, not implementations.
       
