@@ -5,13 +5,13 @@
 
 class Subscriber : public Observer {
 public:
-    Subscriber(const std::string &name)
-            : m_name(name) {}
+	Subscriber(const std::string &name)
+			: m_name(name) {}
 
-    void update(const std::string &data) override {
-        // do something on update
-    }
+	void update(const std::string &data) override {
+		// do something on update
+	}
 
 private:
-    std::string m_name;
+	std::string m_name;
 };

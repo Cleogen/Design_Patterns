@@ -3,48 +3,46 @@
 #include <string>
 
 struct Notifier {
-    virtual ~Notifier() = default;
+	virtual ~Notifier() = default;
 
-    virtual void send(const std::string &) = 0;
+	virtual void send(const std::string &) = 0;
 };
 
 struct NotificationApp : Notifier {
-    ~NotificationApp() override = default;
+	~NotificationApp() override = default;
 
-    void send(const std::string &message) override {
-        // send notification to email
-    }
-    // other logic
-
+	void send(const std::string &message) override {
+		// send notification to email
+	}
 };
 
 struct NotificationType : Notifier {
-    Notifier *m_notifier;
+	Notifier *m_notifier;
 
-    ~NotificationType() override = default;
+	~NotificationType() override = default;
 
-    NotificationType(Notifier *notifier)
-            : m_notifier(notifier) {}
+	NotificationType(Notifier *notifier)
+			: m_notifier(notifier) {}
 };
 
 struct FacebookNotifier : NotificationType {
-    FacebookNotifier(Notifier *notifier)
-            : NotificationType(notifier) {};
+	FacebookNotifier(Notifier *notifier)
+			: NotificationType(notifier) {};
 
-    void send(const std::string &message) override {
-        m_notifier->send(message);
-        // send notification to facebook
-    }
+	void send(const std::string &message) override {
+		m_notifier->send(message);
+		// send notification to facebook
+	}
 };
 
 struct SlackNotifier : NotificationType {
-    SlackNotifier(Notifier *notifier)
-            : NotificationType(notifier) {};
+	SlackNotifier(Notifier *notifier)
+			: NotificationType(notifier) {};
 
-    void send(const std::string &message) override {
-        m_notifier->send(message);
-        // send notification to slack
-    }
+	void send(const std::string &message) override {
+		m_notifier->send(message);
+		// send notification to slack
+	}
 };
 
 struct SMS : NotificationType {
@@ -52,7 +50,7 @@ struct SMS : NotificationType {
             : NotificationType(notifier) {};
 
     void send(const std::string &message) override {
-        m_notifier->send(message);
-        // send notification to phone number
+	    m_notifier->send(message);
+	    // send notification to phone number
     }
 };
